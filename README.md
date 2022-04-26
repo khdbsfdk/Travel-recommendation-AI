@@ -8,6 +8,10 @@
   - [추천 알고리즘](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%B6%94%EC%B2%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 - [참고 사이트](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%EC%B6%9C%EC%B2%98-%EB%B0%8F-%EC%B0%B8%EA%B3%A0-%EC%82%AC%EC%9D%B4%ED%8A%B8)
 ---
+## 결과 영상
+<img width="100%" src="https://user-images.githubusercontent.com/84302953/165410852-5105753b-f9d8-4ba5-9532-2d4e5a329a0d.mp4"/>
+
+---
 ## 프로젝트 개요
 #### (1)프로젝트 선정 및 선정 배경
 - 보통 여행지 추천은 키워드로 추천하지만 본 프로젝트는 사용자의 요구를 대화로 받아 절차를 간소화하고 더 쉽게 여행지를 추천합니다.
