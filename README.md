@@ -87,7 +87,7 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165212133-f03b723b-d3e9-443d-9a0e-6c6d266dd420.png"/>
 
 - 질문 문장을 넣으면 학습 문장 중 가장 유사한 문장을 찾아 답변합니다.
-<img width="100%" src="https://user-images.githubusercontent.com/84302953/165212338-c943ad19-318f-4ed3-bc38-e0bd1c7dbf46.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/84302953/165212338-c943ad19-318f-4ed3-bc38-e0bd1c7dbf46.png"/>
 
 ## 프로젝트 수행 절차 - 추천 알고리즘
 #### (1) 데이터 수집
@@ -102,3 +102,10 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 - 비슷한 의미의 태그는 묶어서 하나의 테마로 만듭니다.
 - 예를들어 "아이"와 "어린이"는 '어린이'라는 하나의 단어로 묶습니다.
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165226576-751c3a16-d253-4118-9fc2-929182fa84f3.png"/>
+- 이후 테마에 해당하는 태그의 개수를 세어 데이터 프레임을 만듭니다.
+<img width="100%" src="https://user-images.githubusercontent.com/84302953/165227200-9c784d85-7678-4980-a968-249363d87075.png"/>
+
+#### (4) 모델 선정(ALS: Alternating Least Squares)
+- 추천 알고리즘으로 ALS를 선택했습니다. https://yeomko.tistory.com/3?category=805638
+- **ALS 알고리즘** : 행렬 분해를 최적화하는 잠재 요인의 유저 협업 필터링 기반의 추천 알고리즘으로서, loss function이 최소가 되는 행렬 x, y를 추출하는데 목적이 있습니다.
+- ALS 알고리즘을 **선택한 이유** : 사용자가 선택하지 않은 테마에 대해서 유의미한 영향을 끼치지 않는다라고 판단하는 것은 옳지 않다고 생각했습니다. 따라서 선택하지 않은 태그, 잠재 요인도 고려하여 사용자가 선택한 테마에 가장 적합한 장소를 추천하기 위해 선정하게 되었습니다.
