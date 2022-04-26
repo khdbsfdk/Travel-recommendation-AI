@@ -6,7 +6,7 @@
   - [웹](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%9B%B9)
   - [챗봇](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%B1%97%EB%B4%87)
   - [추천 알고리즘](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%B6%94%EC%B2%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
-- 참고 자료
+- [참고 사이트](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%EC%B6%9C%EC%B2%98-%EB%B0%8F-%EC%B0%B8%EA%B3%A0-%EC%82%AC%EC%9D%B4%ED%8A%B8)
 ---
 ## 프로젝트 개요
 #### (1)프로젝트 선정 및 선정 배경
@@ -104,7 +104,7 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165226576-751c3a16-d253-4118-9fc2-929182fa84f3.png"/>
 
 - 이후 테마에 해당하는 태그의 개수를 세어 데이터 프레임을 만듭니다.
-<img width="100%" src="https://user-images.githubusercontent.com/84302953/165227200-9c784d85-7678-4980-a968-249363d87075.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/84302953/165227200-9c784d85-7678-4980-a968-249363d87075.png"/>
 
 #### (4) 모델 선정(ALS: Alternating Least Squares)
 - 추천 알고리즘으로 ALS를 선택했습니다. https://yeomko.tistory.com/3?category=805638
