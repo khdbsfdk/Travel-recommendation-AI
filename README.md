@@ -92,4 +92,7 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 ## 프로젝트 수행 절차 - 추천 알고리즘
 #### (1) 데이터 수집
 - 데이터는 한국 관광 데이터랩에서 가져왔으며, 필요한 추가 정보는 visit jeju사이트에서 크롤링했습니다.
-- https://colab.research.google.com/drive/1EzFI03uDONkWwgk0zRkL_5I8fnkUSdk8#scrollTo=54fd38cc 
+- https://colab.research.google.com/drive/1EzFI03uDONkWwgk0zRkL_5I8fnkUSdk8#scrollTo=54fd38cc
+#### (2) 데이터 선정
+- ㄴ
+<img width="100%" src="https://user-images.githubusercontent.com/84302953/165223874-3300f74a-3b2c-4ecc-b71e-af272a61012c.png"/>
