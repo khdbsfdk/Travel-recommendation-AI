@@ -81,4 +81,3 @@ print(key)
 - 제가 사용한 모델은 transformers의 bert입니다.
 ``` python
 model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens')
-
