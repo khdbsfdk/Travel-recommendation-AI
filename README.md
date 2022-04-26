@@ -94,5 +94,10 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 - 데이터는 한국 관광 데이터랩에서 가져왔으며, 필요한 추가 정보는 visit jeju사이트에서 크롤링했습니다.
 - https://colab.research.google.com/drive/1EzFI03uDONkWwgk0zRkL_5I8fnkUSdk8#scrollTo=54fd38cc
 #### (2) 데이터 선정
-- ㄴ
+- 본 프로젝트에서는 사용자가 원하는 **테마**의 관광지이므로, 관광지 정보와 테마 **태그 값**이 필요합니다.
+- 다음 그림은 크롤링 한 데이터 사진입니다.
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165223874-3300f74a-3b2c-4ecc-b71e-af272a61012c.png"/>
+
+#### (3) 데이터 정제
+- 
+<img width="100%" src="https://user-images.githubusercontent.com/84302953/165226383-d3d7aa49-9a86-4ff7-84ca-0ca4ae9aacee.png"/>
