@@ -77,3 +77,8 @@ print(key)
 ```
 - 이렇게 생성하여 만든 데이터 예시 사진입니다.
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165202738-472c6e1d-0cf9-4fc9-b6d1-b4a84e44ce46.png"/>
+#### (4) 챗봇 학습 진행
+- 제가 사용한 모델은 transformers의 bert입니다.
+``` python
+model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens')
+
