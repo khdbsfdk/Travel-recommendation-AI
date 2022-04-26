@@ -1,7 +1,6 @@
 # Travel-recommendation-AI(여행 추천 Ai)
 ---
 # 차례
-- 소개
 - [프로젝트 개요](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)
 - 프로젝트 수행 절차
   - 웹
@@ -36,5 +35,7 @@
   2. 사용자가 어떠한 주제로 말을 걸면, 시스템에 맞는 답변을 하며 **대화**를 이어나가는 **자유 주제 대화 시스템**
 - 본 프로젝트는 여행지 추천에 중점을 두었고, 간단한 인사만 가능한 챗봇을 목적으로 합니다.
 - 따라서 문제 해결용 대화 위주의 챗봇을 제작했습니다.
-#### (3)
+#### (3) 챗봇 데이터 생성
+- 참고할 데이터를 찾지 못하여 직접 생성했습니다.
+- 
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165202738-472c6e1d-0cf9-4fc9-b6d1-b4a84e44ce46.png"/>
