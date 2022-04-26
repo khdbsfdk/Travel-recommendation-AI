@@ -85,6 +85,7 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 ```
 - 저장한 챗봇 데이터 프레임에 임베딩 값을 구한 후 코사인 유사도를 구합니다.
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165212133-f03b723b-d3e9-443d-9a0e-6c6d266dd420.png"/>
+
 - 질문 문장을 넣으면 학습 문장 중 가장 유사한 문장을 찾아 답변합니다.
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165212338-c943ad19-318f-4ed3-bc38-e0bd1c7dbf46.png"/>
 
