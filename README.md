@@ -99,5 +99,6 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165223874-3300f74a-3b2c-4ecc-b71e-af272a61012c.png"/>
 
 #### (3) 데이터 정제
-- 
-<img width="100%" src="https://user-images.githubusercontent.com/84302953/165226383-d3d7aa49-9a86-4ff7-84ca-0ca4ae9aacee.png"/>
+- 비슷한 의미의 태그는 묶어서 하나의 테마로 만듭니다.
+- 예를들어 "아이"와 "어린이"는 '어린이'라는 하나의 단어로 묶습니다.
+<img width="100%" src="https://user-images.githubusercontent.com/84302953/165226576-751c3a16-d253-4118-9fc2-929182fa84f3.png"/>
