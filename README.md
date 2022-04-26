@@ -95,7 +95,7 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 - https://colab.research.google.com/drive/1EzFI03uDONkWwgk0zRkL_5I8fnkUSdk8#scrollTo=54fd38cc
 #### (2) 데이터 선정
 - 본 프로젝트에서는 사용자가 원하는 **테마**의 관광지이므로, 관광지 정보와 테마 **태그 값**이 필요합니다.
-- 다음 그림은 크롤링 한 데이터 사진입니다.
+- 따라서 크롤링 시 명소 이름, 주소, 테마를 저장합니다.
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165223874-3300f74a-3b2c-4ecc-b71e-af272a61012c.png"/>
 
 #### (3) 데이터 정제
@@ -123,6 +123,3 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 - 관광 데이터 -> https://www.visitjeju.net/kr/ (비짓 제주), https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do (한국 관광 데이터랩)
 - 챗봇 -> https://github.com/songys/Chatbot_data(송영숙님 깃허브), https://wikidocs.net/89786 (트랜스포머를 이용한 한국어 챗봇)
 - 추천 알고리즘 구현 -> https://yeomko.tistory.com/4?category=805638(갈아먹는 머신러닝)
-
-
-
