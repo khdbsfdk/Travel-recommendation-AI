@@ -77,7 +77,18 @@ print(key)
 ```
 - 이렇게 생성하여 만든 데이터 예시 사진입니다.
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165202738-472c6e1d-0cf9-4fc9-b6d1-b4a84e44ce46.png"/>
+
 #### (4) 챗봇 학습 진행
 - 제가 사용한 모델은 transformers의 bert입니다.
 ``` python
 model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens')
+```
+- 저장한 챗봇 데이터 프레임에 임베딩 값을 구한 후 코사인 유사도를 구합니다.
+<img width="100%" src="https://user-images.githubusercontent.com/84302953/165212133-f03b723b-d3e9-443d-9a0e-6c6d266dd420.png"/>
+- 질문 문장을 넣으면 학습 문장 중 가장 유사한 문장을 찾아 답변합니다.
+<img width="100%" src="https://user-images.githubusercontent.com/84302953/165212338-c943ad19-318f-4ed3-bc38-e0bd1c7dbf46.png"/>
+
+## 프로젝트 수행 절차 - 추천 알고리즘
+#### (1) 데이터 수집
+- 데이터는 한국 관광 데이터랩에서 가져왔으며, 필요한 추가 정보는 visit jeju사이트에서 크롤링했습니다.
+- https://colab.research.google.com/drive/1EzFI03uDONkWwgk0zRkL_5I8fnkUSdk8#scrollTo=54fd38cc 
