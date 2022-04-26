@@ -37,5 +37,43 @@
 - 따라서 문제 해결용 대화 위주의 챗봇을 제작했습니다.
 #### (3) 챗봇 데이터 생성
 - 참고할 데이터를 찾지 못하여 직접 생성했습니다.
-- 
+- 사용한 코드는 다음과 같습니다.
+``` python
+people = ['가족들과', '가족과', '친구들과', '친구와', '친구랑', '애인과', '애인이랑', '여자 친구와',
+          '남자 친구와', '여자 친구랑', '남자 친구랑', '부모님과', '부모님과 함께', '아이들과',
+          '애들과', '애들이랑', '애들 데리고', '어머니와', '아버지와', '혼자서', '나 혼자서', '혼자', '홀로']
+place = ['오름', '둘레길', '숲', '공원', '섬', '휴양림', '계곡', '산', '등산길', '해수욕장', '해변', '리조트',
+        '온천', '폭포', '박물관', '아쿠아리움', '테마 파크', '전시관', '미술관', '관광 명소', '올레길', '행사',
+        '야영장', '산책로', '일몰 명소', '수영장']
+# 라벨 지정
+def find_thema(word, dict_thema):
+    dict_thema_list = ['관광 명소','역사', '자연', '사진', '도보', '예술', '육상', '수상', '공중', '봄', '여름',
+                        '가을', '겨울', '사계절', '어린이', '혼자', '친구', '커플', '부모', '가족']
+    for i in dict_thema_list:
+        if word in dict_thema[i]:
+            break
+        else:
+            continue
+    return i
+
+Q_data = []
+key = []
+# 예시1 -> {사람들과} 갈만한 {장소} 추천해줘
+for p in people:
+    for i in place:
+        key_a = []
+        sentence = f"{p} 갈만한 {i} 추천해줘"
+        key_1 = find_thema(p, dict_thema)
+        key_2 = find_thema(i, dict_thema)
+        if key_1 != key_2:
+            key_a.append(key_1)
+            key_a.append(key_2)
+        elif key_1 == key_2:
+            key_a.append(key_1)
+        Q_data.append(sentence)
+        key.append(key_a)
+print(Q_data)
+print(key)
+```
+- 이렇게 생성하여 만든 데이터 예시 사진입니다.
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165202738-472c6e1d-0cf9-4fc9-b6d1-b4a84e44ce46.png"/>
