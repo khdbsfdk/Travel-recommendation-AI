@@ -120,7 +120,7 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 <img width="60%" src="https://user-images.githubusercontent.com/84302953/165258890-c627432a-a253-4730-bf7c-eb80856bebb0.png"/>
 
 ## 출처 및 참고 사이트
-- 관광 데이터 -> https://www.visitjeju.net/kr/ (한국 관광 데이터랩 / 비짓 제주)
+- 관광 데이터 -> https://www.visitjeju.net/kr/ (비짓 제주), https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do (한국 관광 데이터랩)
 - 챗봇 -> https://github.com/songys/Chatbot_data(송영숙님 깃허브), https://wikidocs.net/89786 (트랜스포머를 이용한 한국어 챗봇)
 - 추천 알고리즘 구현 -> https://yeomko.tistory.com/4?category=805638(갈아먹는 머신러닝)
 
