@@ -102,6 +102,7 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 - 비슷한 의미의 태그는 묶어서 하나의 테마로 만듭니다.
 - 예를들어 "아이"와 "어린이"는 '어린이'라는 하나의 단어로 묶습니다.
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165226576-751c3a16-d253-4118-9fc2-929182fa84f3.png"/>
+
 - 이후 테마에 해당하는 태그의 개수를 세어 데이터 프레임을 만듭니다.
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165227200-9c784d85-7678-4980-a968-249363d87075.png"/>
 
@@ -116,5 +117,12 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 - 코사인 유사도를 기준으로 상위 10개의 데이터(행 인덱스 번호, 행렬) 추출
 - 입력 데이터와의 태그 부합 개수를 기준으로 랭크 정렬
 - 상위 n 개의 관광지 명과 상세 주소 출력
-<img width="100%" src="https://user-images.githubusercontent.com/84302953/165258890-c627432a-a253-4730-bf7c-eb80856bebb0.png"/>
+<img width="60%" src="https://user-images.githubusercontent.com/84302953/165258890-c627432a-a253-4730-bf7c-eb80856bebb0.png"/>
+
+## 출처 및 참고 사이트
+- 관광 데이터 -> https://www.visitjeju.net/kr/ (한국 관광 데이터랩 / 비짓 제주)
+- 챗봇 -> https://github.com/songys/Chatbot_data(송영숙님 깃허브), https://wikidocs.net/89786 (트랜스포머를 이용한 한국어 챗봇)
+- 추천 알고리즘 구현 -> https://yeomko.tistory.com/4?category=805638(갈아먹는 머신러닝)
+
+
 
