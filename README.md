@@ -2,7 +2,7 @@
 ---
 # 차례
 - 소개
-- 프로젝트 개요
+- [프로젝트 개요](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)
 - 프로젝트 수행 절차
   - 웹
   - 챗봇
