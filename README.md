@@ -3,7 +3,6 @@
 ## 결과 영상
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165410852-5105753b-f9d8-4ba5-9532-2d4e5a329a0d.mp4"/>
 
----
 # 차례
 - [프로젝트 개요](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)
 - [프로젝트 수행 절차](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%9B%B9)
