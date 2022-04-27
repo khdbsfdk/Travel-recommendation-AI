@@ -1,5 +1,9 @@
 # Travel-recommendation-AI(여행 추천 Ai)
 ---
+## 결과 영상
+<img width="100%" src="https://user-images.githubusercontent.com/84302953/165410852-5105753b-f9d8-4ba5-9532-2d4e5a329a0d.mp4"/>
+
+---
 # 차례
 - [프로젝트 개요](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)
 - [프로젝트 수행 절차](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%9B%B9)
@@ -7,10 +11,6 @@
   - [챗봇](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%B1%97%EB%B4%87)
   - [추천 알고리즘](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%B6%94%EC%B2%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 - [참고 사이트](https://github.com/khdbsfdk/Travel-recommendation-AI/blob/main/README.md#%EC%B6%9C%EC%B2%98-%EB%B0%8F-%EC%B0%B8%EA%B3%A0-%EC%82%AC%EC%9D%B4%ED%8A%B8)
----
-## 결과 영상
-<img width="100%" src="https://user-images.githubusercontent.com/84302953/165410852-5105753b-f9d8-4ba5-9532-2d4e5a329a0d.mp4"/>
-
 ---
 ## 프로젝트 개요
 #### (1)프로젝트 선정 및 선정 배경
