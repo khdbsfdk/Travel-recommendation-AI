@@ -164,5 +164,5 @@ model = SentenceTransformer('sentence-transformers/xlm-r-100langs-bert-base-nli-
 
 ## 출처 및 참고 사이트
 - 관광 데이터 -> [비짓 제주](https://www.visitjeju.net/kr/), [한국 관광 데이터랩](https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do)
-- 챗봇 -> [송영숙님 깃허브](https://github.com/songys/Chatbot_data), [트랜스포머를 이용한 한국어 챗봇](https://wikidocs.net/89786)
+- 챗봇 -> [송영숙님 깃허브](https://github.com/songys/Chatbot_data), [BERT의 문장 임베딩(SBERT)을 이용한 한국어 챗봇](https://wikidocs.net/154530)
 - 추천 알고리즘 구현 -> [갈아먹는 머신러닝](https://yeomko.tistory.com/4?category=805638)
