@@ -1,4 +1,5 @@
 # Travel-recommendation-AI(여행 추천 Ai)
+- 작업 인원 5명
 ---
 ## 결과 영상
 <img width="100%" src="https://user-images.githubusercontent.com/84302953/165410852-5105753b-f9d8-4ba5-9532-2d4e5a329a0d.mp4"/>
